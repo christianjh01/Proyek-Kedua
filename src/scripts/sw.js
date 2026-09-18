@@ -48,7 +48,6 @@ self.addEventListener('fetch', (event) => {
   if (url.protocol !== 'http:' && url.protocol !== 'https:') {
     return;
   }
-
   // Strategy 1: Story API Caching (Network First -> Fallback to Cache)
   if (url.origin === 'https://story-api.dicoding.dev') {
     event.respondWith(
