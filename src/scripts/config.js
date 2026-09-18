@@ -1,0 +1,10 @@
+const CONFIG = {
+  BASE_URL: 'https://story-api.dicoding.dev/v1',
+  VAPID_PUBLIC_KEY: 'BCC33B5B8A6136B2B285782B2956942475510B551523992224160359871147040402',
+  DATABASE_NAME: 'dicoding-story-db',
+  DATABASE_VERSION: 1,
+  OBJECT_STORE_FAVORITES: 'favorite-stories',
+  OBJECT_STORE_OFFLINE_QUEUE: 'offline-stories',
+};
+
+export default CONFIG;

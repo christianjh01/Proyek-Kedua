@@ -1,0 +1,2 @@
+APP_URL=https://dicoding-story-pwa.netlify.app/
+MAP_SERVICE_API_KEY=OpenStreetMap
